@@ -1,0 +1,17 @@
+services:
+- type: worker
+  name: CyberUserbot
+  runtime: docker
+  repo: https://github.com/TheHamkerGuy/CyberUserbot
+  plan: starter
+  envVars:
+  - key: STABILITY_KEY
+    sync: false
+  - key: CLARIFAI_PAT
+    sync: false
+  - key: .env
+    sync: false
+  region: oregon
+  dockerContext: .
+  dockerfilePath: ./Dockerfile
+version: "1"

@@ -1,0 +1,10 @@
+version: "3"
+services:
+    cyberuserbot:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        container_name: cyberuserbot
+        restart: unless-stopped
+        env_file:
+            - .env

@@ -24,4 +24,4 @@ jobs:
           context: ./
           file: ./Cloudfile
           push: true
-          tags: qbtaumai/moonubcloud:latest-cloud
+          tags: cyberub/cyberuserbot:latest-cloud

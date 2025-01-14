@@ -12,11 +12,11 @@ pkg install python3 git clang ffmpeg wget libjpeg-turbo libcrypt ndk-sysroot zli
 LDFLAGS="-L${PREFIX}/lib/" CFLAGS="-I${PREFIX}/include/" pip3 install --upgrade wheel pillow
 
 if [[ -d "CyberUserbot" ]]; then
-  cd Moon-Userbot
+  cd CyberUserbot
 elif [[ -f ".env.dist" ]] && [[ -f "main.py" ]] && [[ -d "modules" ]]; then
   :
 else
-  git clone https://github.com/TheHamkerGuy/CyberUserbot || exit 2
+  git clone https://github.com/CyberUB/CyberUserbot || exit 2
   cd CyberUserbot || exit 2
 fi
 

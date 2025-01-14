@@ -34,7 +34,7 @@ else
 fi
 
 if command -v termux-setup-storage; then
-  printf "${RED}For termux, please use https://raw.githubusercontent.com/TheHamkerGuy/CyberUserbot/main/termux-install.sh${NC}\n" # skipcq
+  printf "${RED}For termux, please use https://raw.githubusercontent.com/CyberUB/CyberUserbot/main/termux-install.sh${NC}\n" # skipcq
   exit 1
 fi
 
@@ -58,12 +58,12 @@ pacman)
 esac
 
 # Clone repository if not exists
-if [[ -d "CyberUserbot" && "$(basename "$PWD")" != "Moon-Userbot" ]]; then
-  cd Moon-Userbot || exit 2
+if [[ -d "CyberUserbot" && "$(basename "$PWD")" != "CyberUserbot" ]]; then
+  cd CyberUserbot || exit 2
 elif [[ "$(basename "$PWD")" == "CyberUserbot" && -f ".env.dist" && -f "main.py" && -d "modules" ]]; then
-  printf "${BLUE}Already inside the Moon-Userbot repo, proceeding...${NC}\n" # skipcq
+  printf "${BLUE}Already inside the CyberUserbot repo, proceeding...${NC}\n" # skipcq
 else
-  git clone https://github.com/The-MoonTg-project/Moon-Userbot || exit 2
+  git clone https://github.com/CyberUB/CyberUserbot || exit 2
   cd Moon-Userbot || exit 2
 fi
 

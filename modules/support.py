@@ -8,7 +8,7 @@ from utils.misc import modules_help, prefix, userbot_version, python_version, gi
 
 @Client.on_message(filters.command(["support", "repo"], prefix) & filters.me)
 async def support(_, message: Message):
-    devs = ["@TheHamkerGuy", "@KRISHSUP3RYO"]
+    devs = ["@KRISHSUP3RYO"]
     random.shuffle(devs)
 
     commands_count = 0.0
@@ -18,8 +18,8 @@ async def support(_, message: Message):
 
     await message.edit(
         f"<b>CyberUserbot\n\n"
-        "GitHub: <a href=https://github.com/TheHamkerGuy/CyberUserbot>CyberUserbot</a>\n"
-        "License: <a href=https://github.com/TheHamkerGuy/CyberUserbot/blob/master/LICENSE>GNU GPL v3</a>\n\n"
+        "GitHub: <a href=https://github.com/CyberUB/CyberUserbot>CyberUserbot</a>\n"
+        "License: <a href=https://github.com/CyberUB/CyberUserbot/blob/master/LICENSE>GNU GPL v3</a>\n\n"
         "Channel: @Cyber_Userbot_News\n"
         "Chat [EN]: @Cyber_Userbot_Support\n"
         f"Main developers: {', '.join(devs)}\n\n"
@@ -34,7 +34,7 @@ async def support(_, message: Message):
 async def version(client: Client, message: Message):
     changelog = ""
     ub_version = ".".join(userbot_version.split(".")[:2])
-    async for m in client.search_messages("moonuserbot", query=f"{userbot_version}."):
+    async for m in client.search_messages("cyberuserbot", query=f"{userbot_version}."):
         if ub_version in m.text:
             changelog = m.message_id
 

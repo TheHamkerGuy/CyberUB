@@ -1,17 +1,15 @@
 # 🥀 Cyber Userbot
 
-![Cyber Userbot](https://telegra.ph/file/991196f12ae7da35421e5-2a41e36cc6cd131fed.jpg)
+![Cyber Userbot](https://telegra.ph/file/93f927f65ba01dab6fafc-8ce02c01356a4c1ff7.jpg)
 
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/TheHamkerGuy/CyberUserbot)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-green)](https://github.com/TheHamkerGuy/CyberUserbot/graphs/commit-activity)
-[![CodeFactor](https://www.codefactor.io/repository/github/TheHamkerGuy/CyberUserbot/badge)](https://www.codefactor.io/repository/github/TheHamkerGuy/CyberUserbot)
-[![DeepSource](https://app.deepsource.com/gh/TheHamkerGuy/CyberUserbot.svg/?label=resolved+issues&show_trend=true&token=OOvfC-BCIsHOvBpsGHc_osHs)](https://app.deepsource.com/gh/TheHamkerGuy/CyberUserbot/)
-[![GitHub Forks](https://img.shields.io/github/forks/TheHamkerGuy/CyberUserbot?&logo=github)](https://github.com/TheHamkerGuy/CyberUserbot)
-[![GitHub Stars](https://img.shields.io/github/stars/TheHamkerGuy/CyberUserbot?&logo=github)](https://github.com/TheHamkerGuy/CyberUserbot/stargazers)
-[![Last commit](https://img.shields.io/github/last-commit/TheHamkerGuy/CyberUserbot?&logo=github)](https://github.com/TheHamkerGuy/CyberUserbot)
-[![Size](https://img.shields.io/github/repo-size/TheHamkerGuy/CyberUserbot?color=green)](https://github.com/TheHamkerGuy/CyberUserbot)
-[![Contributors](https://img.shields.io/github/contributors/TheHamkerGuy/CyberUserbot?color=green)](https://github.com/TheHamkerGuy/CyberUserbot/graphs/contributors)
-[![License](https://img.shields.io/badge/License-GPL-blue)](https://github.com/TheHamkerGuy/CyberUserbot/blob/main/LICENSE)
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/CyberUB/CyberUserbot)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-green)](https://github.com/CyberUB/CyberUserbot/graphs/commit-activity)
+[![GitHub Forks](https://img.shields.io/github/forks/CyberUB/CyberUserbot?&logo=github)](https://github.com/CyberUB/CyberUserbot)
+[![GitHub Stars](https://img.shields.io/github/stars/CyberUB/CyberUserbot?&logo=github)](https://github.com/CyberUB/CyberUserbot/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/CyberUB/CyberUserbot?&logo=github)](https://github.com/CyberUB/CyberUserbot)
+[![Size](https://img.shields.io/github/repo-size/CyberUB/CyberUserbot?color=green)](https://github.com/CyberUB/CyberUserbot)
+[![Contributors](https://img.shields.io/github/contributors/CyberUB/CyberUserbot?color=green)](https://github.com/CyberUB/CyberUserbot/graphs/contributors)
+[![License](https://img.shields.io/badge/License-GPL-blue)](https://github.com/CyberUB/CyberUserbot/blob/main/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 
 
@@ -54,7 +52,7 @@
 ### ⛺ Optional Vars
  
  - `STRINGSESSION`
-     - only If you want to use on cloud hosts use [string_gen.py](https://github.com/TheHamkerGuy/CyberUserbot/blob/main/string_gen.py) to generate OR
+     - only If you want to use on cloud hosts use [string_gen.py](https://github.com/CyberUB/CyberUserbot/blob/main/string_gen.py) to generate OR
 [![Run on Repl.it](https://replit.com/badge)](https://replit.com/@thehamkerguy/CyberUBStringGen)
 > [!IMPORTANT]
 > `STRINGSESSION` is necessary for deployment through Docker/Cloud Host etc.
@@ -74,7 +72,7 @@
 ## ☁️ Cloud Host
 | Koyeb | Heroku | Render |
 |-------|--------|--------|
-| [![Deploy To Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/TheHamkerGuy/CyberUserbot&branch=main&name=cyberub) | [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TheHamkerGuy/cyberub-cloud) | [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/TheHamkerGuy/CyberUserbot) |
+| [![Deploy To Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/CyberUB/CyberUserbot&branch=main&name=cyberub) | [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/CyberUB/cyberub-cloud) | [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/CyberUB/CyberUserbot) |
 
 ## 🐳 Docker
 
@@ -140,7 +138,7 @@ There are instructions for installing on several different Unix distributions on
 ### Clone the repo
 
 ```shell
-git clone https://github.com/TheHamkerGuy/CyberUserbot.git
+git clone https://github.com/CyberUB/CyberUserbot.git
 ```
 
 ### Installation
@@ -178,11 +176,6 @@ Contributions of any type are welcome like `custom_modules` etc. Feel free to do
 ## 👨🏻‍💻 Support
 * [Channel](https://t.me/Cyber_Userbot_News) with latest news on the official telegram \[en\]
 * [Discussion](https://t.me/Cyber_Userbot_Support) in the official telegram chat \[en\]
-
-
-## 👨🏻‍💼 Credits
-* [Dragon-Userbot](https://github.com/Dragon-Userbot/Dragon-Userbot)
-* [TheHamkerGuy](https://github.com/TheHamkerGuy)
  
 ### Written on [Pyrogram\[Pyrofork\]❤️](https://github.com/Mayuri-Chan/pyrofork) and [pytgcalls❤️](https://github.com/MarshalX/tgcalls/tree/main/pytgcalls)
 

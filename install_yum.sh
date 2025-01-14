@@ -1,6 +1,6 @@
 #!/bin/bash
 if command -v termux-setup-storage; then
-  echo For termux, please use https://raw.githubusercontent.com/TheHamkerGuy/CyberUserbot/main/termux-install.sh
+  echo For termux, please use https://raw.githubusercontent.com/CyberUB/CyberUserbot/main/termux-install.sh
   exit 1
 fi
 
@@ -22,7 +22,7 @@ if [[ -d "CyberUserbot" ]]; then
 elif [[ -f ".env.dist" ]] && [[ -f "main.py" ]] && [[ -d "modules" ]]; then
   :
 else
-  git clone https://github.com/TheHamkerGuy/CyberUserbot || exit 2
+  git clone https://github.com/CyberUB/CyberUserbot || exit 2
   cd CyberUserbot || exit 2
 fi
 

@@ -1,10 +1,10 @@
 from pyrogram import Client, enums
 
 cyber_ = """
-Copyright (C) 2025-2026 by TheHamkerGuy@Github, < https://github.com/TheHamkerGuy/CyberUserbot >.
-This file is part of < https://github.com/TheHamkerGuy/CyberUserbot > project,
+Copyright (C) 2025-2026 by CyberUB@Github, < https://github.com/CyberUB/CyberUserbot >.
+This file is part of < https://github.com/CyberUB/CyberUserbot > project,
 and is released under the "GNU v3.0 License Agreement".
-Please see < https://github.com/TheHamkerGuy/CyberUserbot/blob/main/LICENSE >
+Please see < https://github.com/CyberUB/CyberUserbot/blob/main/LICENSE >
 All rights reserved.
 """
 

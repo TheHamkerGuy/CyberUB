@@ -1,6 +1,6 @@
 # 🥀 Cyber Userbot
 
-![Cyber Userbot](thumb.jpg)
+![Cyber Userbot](https://github.com/CyberUB/CyberUserbot/blob/07c883a635b26eddcae5facf208cc6b36d613d50/thumb.jpg)
 
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/CyberUB/CyberUserbot)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-green)](https://github.com/CyberUB/CyberUserbot/graphs/commit-activity)

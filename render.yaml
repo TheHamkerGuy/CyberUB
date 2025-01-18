@@ -2,7 +2,7 @@ services:
 - type: worker
   name: CyberUserbot
   runtime: docker
-  repo: https://github.com/TheHamkerGuy/CyberUserbot
+  repo: https://github.com/TheHamkerGuy/CyberUB
   plan: starter
   envVars:
   - key: STABILITY_KEY
